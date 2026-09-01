@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="nagendraorg"
+            fetch="https://github.com/nagendraorg"
+            revision="lineage-24.0" />
+
+    <!-- Device Trees -->
+    <project path="device/motorola/tank" name="android_device_motorola_tank" remote="nagendraorg" />
+    <project path="device/motorola/sm8475-common" name="android_device_motorola_sm8475-common" remote="nagendraorg" />
+
+    <!-- Kernel & Modules & Devicetrees -->
+    <project path="kernel/motorola/sm8475" name="android_kernel_motorola_sm8475" remote="nagendraorg" />
+    <project path="kernel/motorola/sm8475-modules" name="android_kernel_motorola_sm8475-modules" remote="nagendraorg" />
+    <project path="kernel/motorola/sm8475-devicetrees" name="android_kernel_motorola_sm8475-devicetrees" remote="nagendraorg" />
+
+    <!-- Hardware -->
+    <project path="hardware/motorola" name="android_hardware_motorola" remote="nagendraorg" />
+
+    <!-- Vendor Blobs -->
+    <project path="vendor/motorola/tank" name="proprietary_vendor_motorola_tank" remote="nagendraorg" />
+    <project path="vendor/motorola/sm8475-common" name="proprietary_vendor_motorola_sm8475-common" remote="nagendraorg" />
+</manifest>
